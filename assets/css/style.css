@@ -1,0 +1,109 @@
+*{
+    padding:0px;
+    margin:0px;
+ 
+}
+body{
+    position:relative;
+    /* height:100vh; */
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    width:32px!important;
+    height:32px!important;
+
+}
+.carousel-item{
+    min-height:100vh!important;
+}
+.jedan{
+    background-image: url('../img/hongKong.jpg');
+   
+}
+.dva{
+    background-image: url('../img/iran.jpg');
+}
+.tri{
+    background-image: url('../img/australija.jpg');
+}
+.cetiri{
+    background-image: url('../img/korona.jpg');
+}
+.pet{
+    background-image: url('../img/polcas.jpg');
+}
+.sest{
+    background-image: url('../img/rat.jpg');
+}
+.sedam{
+    background-image: url('../img/kripto.jpg');
+}
+.osam{
+    background-image: url('../img/bogati.jpg');
+    background-size: cover;
+}
+.opis { 
+    position: absolute;
+    top:150px;   
+    left:50%;
+    transform: translate(-50%);
+    color:#fff;
+    background: rgba(0, 0,0,0.8);
+    padding:100px;
+    border-radius: 5px;
+    width:65%;
+    height:65%;
+}   
+.opis h1{
+    margin-bottom:50px;
+    font-size:4em;
+}
+.opis p{
+    font-size:1.15em;
+    line-height: 1.8;
+    text-align: justify;
+}
+@media screen and (max-width: 1440px) {
+    .opis{
+        top:100px;
+        padding:50px;
+    }
+    .opis h1{
+        font-size:3.5em;
+    }
+    .opis p{
+        font-size:1.05em;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .opis{
+        top:100px;
+        padding:50px;
+        width:75%;
+        height:75%;
+    }
+    .opis h1{
+        font-size:3em;
+    }
+    .opis p{
+        font-size:1.em;
+    }
+  }
+  @media screen and (max-width: 415px) {
+    .carousel-item{
+        min-height: 100vh!important;
+      
+    }
+    .opis{
+        top:50px;
+        padding:25px;
+        width:85%;
+        height:80%;
+        overflow-y: scroll;
+    }
+    .opis h1{
+        font-size:2.5em;
+    }
+    .opis p{
+        font-size:1.em;
+    }
+  }
