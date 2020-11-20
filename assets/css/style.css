@@ -47,7 +47,7 @@ body{
     left:50%;
     transform: translate(-50%);
     color:#fff;
-    background: rgba(0, 0,0,0.8);
+    background: rgba(0, 0,0,0.5);
     padding:100px;
     border-radius: 5px;
     width:65%;
