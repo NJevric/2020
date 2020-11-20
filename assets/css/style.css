@@ -90,7 +90,7 @@ body{
   }
   @media screen and (max-width: 415px) {
     .carousel-item{
-        min-height: 100vh!important;
+        min-height: 95vh!important;
       
     }
     .carousel-control-next-icon, .carousel-control-prev-icon{
